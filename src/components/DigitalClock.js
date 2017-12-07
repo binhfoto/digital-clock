@@ -1,10 +1,16 @@
 import React from 'react';
+import Date from './Date';
+import Time from './Time';
 
-const DigitalClock = () => {
+
+const DigitalClock = (props) => {
     return (
-        <span>
-            Digital Clock
-        </span>
+        <div className="clock">
+            <div className="center">
+                <Time {...props}/>
+                {props.showDate && <Date {...props}/>}
+            </div>
+        </div>
     );
 };
 

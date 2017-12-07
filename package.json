@@ -26,6 +26,8 @@
     "css-loader": "^0.28.4",
     "lodash": "^4.17.4",
     "material-ui": "^0.18.3",
+    "moment": "^2.19.3",
+    "moment-timer": "^1.2.1",
     "path": "^0.12.7",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
@@ -44,5 +46,3 @@
   },
   "homepage": "https://github.com/binhfoto/digital-clock#readme"
 }
-
-
